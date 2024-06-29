@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Medica/static/css/main.ac611975.css",
-    "main.js": "/Medica/static/js/main.7240d679.js",
+    "main.js": "/Medica/static/js/main.1ebb35d1.js",
     "static/js/453.9b843f7b.chunk.js": "/Medica/static/js/453.9b843f7b.chunk.js",
     "static/js/312.a424e5df.chunk.js": "/Medica/static/js/312.a424e5df.chunk.js",
     "static/js/84.3820ec27.chunk.js": "/Medica/static/js/84.3820ec27.chunk.js",
     "index.html": "/Medica/index.html",
     "main.ac611975.css.map": "/Medica/static/css/main.ac611975.css.map",
-    "main.7240d679.js.map": "/Medica/static/js/main.7240d679.js.map",
+    "main.1ebb35d1.js.map": "/Medica/static/js/main.1ebb35d1.js.map",
     "453.9b843f7b.chunk.js.map": "/Medica/static/js/453.9b843f7b.chunk.js.map",
     "312.a424e5df.chunk.js.map": "/Medica/static/js/312.a424e5df.chunk.js.map",
     "84.3820ec27.chunk.js.map": "/Medica/static/js/84.3820ec27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac611975.css",
-    "static/js/main.7240d679.js"
+    "static/js/main.1ebb35d1.js"
   ]
 }
