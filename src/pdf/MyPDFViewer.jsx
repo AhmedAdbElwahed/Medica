@@ -3,8 +3,6 @@ import PatientReport from "./patient/PatientReport";
 import {useGetPatientByIdQuery} from "../redux/features/patient/patientApiSlice";
 import {CircularProgress} from "@mui/material";
 import {useGetPatientHistoryByPatientIdQuery} from "../redux/features/patientHistory/patientHistoryApiSlice";
-import store from "../redux/store";
-import {Provider} from "react-redux";
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 

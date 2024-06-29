@@ -2,6 +2,7 @@ import {createApi} from "@reduxjs/toolkit/query/react";
 import {axiosBaseQuery} from "../../../util/axiosApi";
 import {BASE_URL} from "../../../util/additionalFunc";
 
+
 export const appointmentApi = createApi({
     reducerPath: "appointmentApi",
     baseQuery: axiosBaseQuery({
@@ -9,10 +10,12 @@ export const appointmentApi = createApi({
     }),
     endpoints: (builder) => ({
         getAllAppointments: builder.query({
-            query: () => ({
+            query: () => {
+                console.log("From appointment Api");
+                return {
                 url: "/api/v1/appointments",
                 method: "get"
-            }),
+            }},
             providesTags: ["Appointments"]
         }),
         deleteAppointmentById: builder.mutation({

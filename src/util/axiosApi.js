@@ -27,6 +27,7 @@ export const setupAxiosInterceptors = (store, refreshTokenRequest) => {
                     config.headers["Authorization"] = `Bearer ${
                         store.getState().auth.userTokens.access_token
                     }`;
+                    config.headers['ngrok-skip-browser-warning'] = "69420";
                 }
             }
             return config;
@@ -39,6 +40,7 @@ export const setupAxiosInterceptors = (store, refreshTokenRequest) => {
 
 export const axiosBaseQuery = ({baseUrl} = {baseUrl: ""}) => {
     return async ({url, method, data, params, headers}) => {
+        console.log(baseUrl + url);
         try {
             const result = await axiosPrivate({
                 url: baseUrl + url,

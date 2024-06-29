@@ -5,7 +5,6 @@ import ReportPatientData from "./components/ReportPatientData";
 import {tw} from "../../util/additionalFunc";
 import ReportPatientHistory from "./components/ReportPatientHistory";
 import ReportFooter from "./components/ReportFooter";
-import {useGetPatientHistoryByPatientIdQuery} from "../../redux/features/patientHistory/patientHistoryApiSlice";
 
 const PatientReport = ({patient, patientHist}) => {
 
