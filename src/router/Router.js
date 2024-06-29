@@ -1,4 +1,4 @@
-import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import {RouterProvider, createHashRouter} from 'react-router-dom';
 import {Login, Register} from '../auth/index';
 import PrivateRoute from "./PrivateRoute";
 import {Error404} from "../exception/Error404";
@@ -21,7 +21,7 @@ import Layout from "../layout/Layout";
 export const Router = () => {
 
 
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: "/",
             element: <PrivateRoute><Layout/></PrivateRoute>,
